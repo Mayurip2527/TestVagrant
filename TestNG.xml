@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Torenzo WebSite" verbose="1" >		
+	<listeners>		
+			<listener class-name = "com.testvagrnat.qa.extentreprot.ExtentReportListener" />
+	</listeners>
+		<test name ="TorenzoTest" preserve-order="true">
+		<classes>
+				<class name = "com.testvagrnat.qa.testcases.ImdWikiTest" ></class>
+
+			</classes>
+		</test>
+	</suite>
+	
+	
+	
+	
+	

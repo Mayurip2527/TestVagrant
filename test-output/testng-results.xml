@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Before executing suite at the begin Torenzo WebSite]]>
+    </line>
+    <line>
+      <![CDATA[Before executing test method once onlyTorenzoTest]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ImdWikiTest.setUp]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ImdWikiTest.setUp]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ImdWikiTest.verifyReleaseDateAndCountry]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ImdWikiTest.verifyReleaseDateAndCountry]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ImdWikiTest.quite]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ImdWikiTest.quite]]>
+    </line>
+  </reporter-output>
+  <suite name="Torenzo WebSite" duration-ms="44469" started-at="2022-11-05T16:32:29 IST" finished-at="2022-11-05T16:33:13 IST">
+    <groups>
+    </groups>
+    <test name="TorenzoTest" duration-ms="44469" started-at="2022-11-05T16:32:29 IST" finished-at="2022-11-05T16:33:13 IST">
+      <class name="com.testvagrnat.qa.testcases.ImdWikiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testvagrnat.qa.testcases.ImdWikiTest@5891e32e]" name="setUp" is-config="true" duration-ms="32406" started-at="2022-11-05T16:32:29 IST" finished-at="2022-11-05T16:33:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ImdWikiTest.setUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyReleaseDateAndCountry()[pri:1, instance:com.testvagrnat.qa.testcases.ImdWikiTest@5891e32e]" name="verifyReleaseDateAndCountry" duration-ms="10823" started-at="2022-11-05T16:33:01 IST" finished-at="2022-11-05T16:33:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[About to begin executing following method : ImdWikiTest.verifyReleaseDateAndCountry]]>
+            </line>
+            <line>
+              <![CDATA[Completed executing following method : ImdWikiTest.verifyReleaseDateAndCountry]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : ImdWikiTest.quite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyReleaseDateAndCountry -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:com.testvagrnat.qa.testcases.ImdWikiTest@5891e32e]" name="quite" is-config="true" duration-ms="703" started-at="2022-11-05T16:33:13 IST" finished-at="2022-11-05T16:33:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ImdWikiTest.quite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- com.testvagrnat.qa.testcases.ImdWikiTest -->
+    </test> <!-- TorenzoTest -->
+  </suite> <!-- Torenzo WebSite -->
+</testng-results>
